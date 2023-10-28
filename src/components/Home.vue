@@ -42,6 +42,6 @@ const numPages = Math.ceil(posts.value.totalCount / limit)
     justify-content: space-between;
     margin-top: 90px;
     margin-left: 30px;
-    font-size: 1.4rem;
+
 }
 </style>

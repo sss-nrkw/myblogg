@@ -10,11 +10,3 @@ a:active {
   text-decoration: none;
 }
 
-/* メディアクエリを追加してレスポンシブに対応させる */
-@media screen and (max-width: 768px) {
-  /* 768px未満の画面幅に対応するスタイル */
-  html {
-    font-size: 20%; /* 768px未満の場合、フォントサイズを変更 */
-  }
-  /* 他のレスポンシブスタイリングを追加 */
-}

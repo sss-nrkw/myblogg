@@ -21,6 +21,7 @@ const numPages = Math.ceil(posts.value.totalCount / limit)
 </script>
 
 <template>
+    <Pagination :numPages="numPages" :current="page" />
     <div>
         <div class="divider">
             <section class="container">
@@ -32,7 +33,6 @@ const numPages = Math.ceil(posts.value.totalCount / limit)
             </aside>
         </div>
         <!-- 追加 -->
-        <Pagination :numPages="numPages" :current="page" />
     </div>
 </template>
 

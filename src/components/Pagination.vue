@@ -34,10 +34,9 @@ function getClass(page: number, current: number) {
 .pagination {
     position: relative;
     width: 100%;
-    margin: 8em 0 8rem;
+    margin-top: 90px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    line-height: 1.1;
     text-align: center;
     vertical-align: middle;
 }

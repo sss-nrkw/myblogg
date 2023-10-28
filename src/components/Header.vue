@@ -16,25 +16,11 @@
   top: 0;
   width: 100%;
   background-color: black;
-  display: flex;
-  align-items: center;
-  z-index: 10;
-}
-
-.wrapper {
-  max-width: 100%;
-  margin: 0 auto;
 }
 
 .title {
   font-size: 2rem;
   color: #fff;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 3px;
-  line-height: 1.4em;
-  justify-content: center;
-  letter-spacing: 1px;
 }
 
 </style>

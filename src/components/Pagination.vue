@@ -31,25 +31,13 @@ function getClass(page: number, current: number) {
 </template>
 
 <style scoped>
-.pagination {
-    position: relative;
-    width: 100%;
-    margin: 8em 0 8rem;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    line-height: 1.1;
-    text-align: center;
-    vertical-align: middle;
-}
-
 .current,
 .link {
-    display: inline-block;
+
     margin: 0 2rem;
-    padding: 2px 0;
-    text-align: center;
+
     font-size: 3rem;
-    font-weight: lighter;
+
 }
 
 .current {

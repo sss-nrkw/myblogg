@@ -27,6 +27,7 @@ if (!article.value) {
     padding: 20px;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -37,15 +38,16 @@ if (!article.value) {
 }
 
 .md {
-    font-size: 16px;
+    font-size: 30px;
     line-height: 1.6;
 }
 .md:deep(*) {
     margin-top: 0;
     margin-bottom: 2rem;
     line-height: 1.9;
-    font-size: 1.6rem;
+    font-size: 2.6rem;
     font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .md:deep(p) code {

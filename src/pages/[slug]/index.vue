@@ -23,21 +23,21 @@ if (!article.value) {
 <style scoped>
 .main {
     position: relative;
-    width: 720px;
-    margin: 0 auto 0;
-    padding: 112px 0;
+    max-width: 100%;
+    width: 100%;
+    padding: 5% 2%;
     color: #0d1a3c;
 }
 
 .published {
     font-size: 1.4rem;
     color: #888;
-    margin-right: 20px;
+    margin-right: 2%;
 }
 
 .title {
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 5%;
     font-size: 2.4rem;
     color: #0d1a3c;
     line-height: 1.6;
@@ -48,12 +48,12 @@ if (!article.value) {
     color: 888;
     opacity: 0.7;
     letter-spacing: 1px;
-    margin-right: 12em;
+    margin-right: 5%;
 }
 
 .md:deep(*) {
     margin-top: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 2%;
     line-height: 1.9;
     font-size: 1.6rem;
     font-weight: 500;
@@ -62,8 +62,8 @@ if (!article.value) {
 .md:deep(img) {
     display: block;
     max-width: 100%;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-top: 5%;
+    margin-bottom: 0;
     height: auto;
     border: solid 1px #ccc;
 }
@@ -86,7 +86,7 @@ if (!article.value) {
 .md:deep(pre) {
     line-height: 1.2;
     background-color: #1D1F21;
-    padding: 2% 4%;
+    padding: 5% 2%;
     overflow-x: scroll;
 }
 
@@ -97,7 +97,7 @@ if (!article.value) {
 }
 
 .md:deep(blockquote) {
-    padding: 15px;
+    padding: 5%;
     border-left: 5px solid #ccc;
     border-radius: 2px;
 }
@@ -106,15 +106,15 @@ if (!article.value) {
     font-size: 24px;
     border-bottom: 1px solid #ccc;
     font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .md :deep(h2),
 .md:deep(h3) {
     font-size: 20px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
     font-weight: bold;
 }
 
@@ -123,8 +123,8 @@ if (!article.value) {
 }
 
 .md:deep(.cp_embed_wrapper) {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .md:deep(a) {
@@ -138,7 +138,7 @@ if (!article.value) {
 .md:deep(ul),
 .md:deep(ol) {
     padding-left: 1.5em;
-    margin: 1rem 0;
+    margin: 5% 0;
     line-height: 1.7;
 }
 
@@ -152,6 +152,6 @@ if (!article.value) {
 
 .md:deep(ul) li,
 .md:deep(ol) li {
-    margin-bottom: 1rem;
+    margin-bottom: 5%;
 }
 </style>

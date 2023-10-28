@@ -8,3 +8,11 @@ export default defineNuxtConfig({
     },
     css: ['~/assets/css/reset.css', '~/assets/css/style.css',],
 })
+
+defineNuxtConfig({
+  nitro: {
+    prerender: {
+      crawlLinks: true
+    }
+  }
+})

@@ -7,7 +7,7 @@ type Props = {
 
 const { page } = defineProps<Props>()
 
-const limit = 6
+const limit = 15
 
 const queries: MicroCMSQueries = {
     limit: limit,
